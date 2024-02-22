@@ -1,1 +1,1 @@
-﻿print(*[int(input()) for _ in range(int(input()))][::-1])
+print("Результат - ",  *[int(input("Введи число - ")) for _ in range(int(input("Задай количество - ")))][::-1])
